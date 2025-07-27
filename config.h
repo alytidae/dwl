@@ -3,6 +3,8 @@ alwayscenter - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/alwa
 ipc - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/ipc for showing my layout
 */
 
+#include <X11/XF86keysym.h>
+
 /* Taken from https://github.com/djpohly/dwl/issues/466 */
 #define COLOR(hex)    { ((hex >> 24) & 0xFF) / 255.0f, \
                         ((hex >> 16) & 0xFF) / 255.0f, \
