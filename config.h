@@ -59,6 +59,8 @@ static const MonitorRule monrules[] = {
 };
 
 /* keyboard */
+static const char  kblayout_file[] = "/tmp/dwl-keymap";
+static const char *kblayout_cmd[]  = {"pkill", "-RTMIN+3", "someblocks", NULL};
 static const struct xkb_rule_names xkb_rules = {
 	/* can specify fields: rules, model, layout, variant, options */
 	/* example:
